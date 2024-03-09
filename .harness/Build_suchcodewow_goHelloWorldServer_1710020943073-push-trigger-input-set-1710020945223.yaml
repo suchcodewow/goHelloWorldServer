@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_suchcodewow_goHelloWorldServer_1710020943073-push-trigger-input-set
+  identifier: Build_suchcodewow_goHelloWorldServer_1710020943073pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: labmainproject
+  pipeline:
+    identifier: Build_suchcodewow_goHelloWorldServer_1710020943073
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
