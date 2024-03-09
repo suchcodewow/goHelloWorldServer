@@ -90,6 +90,8 @@ pipeline:
                             spec:
                               count: 1
                           skipDryRun: false
+                          delegateSelectors:
+                            - helm-delegate
                     - step:
                         name: Canary Delete
                         identifier: canaryDelete
