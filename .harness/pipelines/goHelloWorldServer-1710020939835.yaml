@@ -42,6 +42,7 @@ pipeline:
                   identifier: dockerbuild
                   name: docker_build
                   spec:
+                    connectorRef: isthisneeded
                     image: plugins/docker
                     settings:
                       dry_run: "true"
